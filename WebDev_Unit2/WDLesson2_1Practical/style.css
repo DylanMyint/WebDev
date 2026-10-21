@@ -25,7 +25,10 @@ p{
   font-family: Arial;
 }
 /* Challenge 5: Change the family of font being used for all lists to "Comic Sans MS".  What element creates a list? */ 
-li{
+ol{
+  font-family: "Comic Sans MS";
+}
+ul{
   font-family: "Comic Sans MS";
 }
 /* Chalenge 6: Change the background color of the div to blue, color of the text to white and the weight of the font to bold.*/
