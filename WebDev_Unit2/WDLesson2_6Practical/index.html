@@ -15,8 +15,10 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="script.js"></script>
     <style>
-      /* Challenge 6: Using internal styling,  change the color of the web page.
-
+      /* Challenge 6: Using internal styling,  change the color of the web page. */
+      body{
+        background-color: #ffcc66;
+      }
       /* Further challenges are located in style.css  */
 
       /* Challenge 12: Create the other pages in the sitemap using index.html as the template. 
@@ -30,14 +32,22 @@
   </head>
   <body>
     <!-- Challenge 1: Create the navigation bar in support of the sitemap associated with the website. -->
-
+    <nav>
+      <a href="index.html">Homepage</a>
+      <a href="html.html">HTML</a>
+      <a href="css.html">CSS</a>
+      <a href="js.html">JS</a>
+    </nav>
     <!-- Challenge 2: Create a banner container with heading of "Web Development".  Give it a class of "banner".-->
-
+    <div class="banner">
+      <h1>Web Development</h1>
+    </div>
     <div class="main">
       <!-- Challenge 3: Add the image of webicons.png-->
-      <!-- Challenge 4: Using inline styling, resize the above image appropriately -->
+      <img src="webicons.png" style="height: 300px;">
+      <!-- Challenge 4: Using inline styling, resize the above image appropriately -->     
       <!-- Challenge 5: Write a paragraph describing web development.  Discuss the purpose of HTML, CSS and JavaScript -->
-
+      <p> Web development is the process of building and maintaining websites or web applications that are accessible through the internet. It involves creating the visual layout, interactive features, and underlying structure of a website. HTML (HyperText Markup Language) provides the basic framework and structure for web pages, allowing developers to organize content with headings, paragraphs, links, and more. CSS (Cascading Style Sheets) is used to style and visually enhance the HTML elements, controlling aspects like colors, fonts, spacing, and layout to create an appealing user experience. JavaScript adds interactivity and dynamic functionality, enabling features such as form validation, animations, and real-time updates. Together, HTML, CSS, and JavaScript form the foundation of modern web development, allowing developers to create engaging and functional websites.</p>
     </div>
 
   </body>
